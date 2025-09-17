@@ -2,7 +2,7 @@
 
 La asignatura se trabajará combinando diferentes **herramientas digitales** que permiten aprender programación de forma progresiva:
 
-* **Blockly Games** y **Scratch** para iniciarse en la lógica de la programación sin necesidad de aprender sintaxis.
+* **[Blockly Games](https://blockly.games/?lang=es)** y **[Scratch](https://scratch.mit.edu/mystuff/)** para iniciarse en la lógica de la programación sin necesidad de aprender sintaxis.
 * **JDoodle** para escribir programas sencillos en Java sin necesidad de instalar nada.
 * **CodingBat** como refuerzo con ejercicios prácticos en Java.
 * **IntelliJ IDEA** para el trabajo final con proyectos más completos que incluyan ficheros y bases de datos.
