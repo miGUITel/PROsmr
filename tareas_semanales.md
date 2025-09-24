@@ -1,10 +1,10 @@
 **stack de recursos**:
 
-* **Blockly Games** → para iniciación a la lógica de programación sin sintaxis.
-* **Scratch** → para representar estructuras y lógica con bloques visuales.
-* **JDoodle (Java)** → para escribir programas sencillos en Java sin necesidad de un IDE.
-* **CodingBat (Java)** → para reforzar y ampliar con ejercicios de lógica en Java.
-* **IntelliJ IDEA** → para proyectos locales más completos y organización del código.
+* [Blockly Games](https://blockly.games/) → para iniciación a la lógica de programación sin sintaxis.
+* [Scratch](https://scratch.mit.edu/) → para representar estructuras y lógica con bloques visuales.
+* [JDoodle (Java)](https://www.jdoodle.com/online-java-compiler) → para escribir programas sencillos en Java sin necesidad de un IDE.
+* [CodingBat (Java)](https://codingbat.com/java) → para reforzar y ampliar con ejercicios de lógica en Java.
+* [IntelliJ IDEA](https://www.jetbrains.com/idea/) → para proyectos locales más completos y organización del código.
 
 ---
 
