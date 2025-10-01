@@ -44,7 +44,10 @@ Crea un proyecto que:
 
 ### B) JDoodle (Java) — **Operaciones con entrada de datos**
 
-Escribe un programa sencillo que pida datos y practique operadores con **nombres semánticos**.
+- Escribe un programa sencillo que pida datos y practique operadores con **nombres semánticos**.
+- Comenta cada una de las líneas utilizando `//`
+   - Presta especial atención al tipo de cada variable
+- Modifica el código para que pida el nombre del usuario y, antes de mostrar edad, muestre por pantalla el nombre del usuario.
 
 **Requisitos:**
 
@@ -53,7 +56,7 @@ Escribe un programa sencillo que pida datos y practique operadores con **nombres
 * Una **constante** `final` (`FACTOR`).
 * Operadores: `+ - * / %`.
 
-**Código base recomendado (puedes adaptarlo):**
+**Código base recomendado:**
 
 ```java
 import java.util.Scanner;
@@ -88,7 +91,7 @@ public class Main {
 }
 ```
 
-**Entrega B:** URL de JDoodle (o el código pegado) + **captura de la ejecución** con tus propios datos.
+**Entrega B:** El código comentado + **captura de la ejecución** con tus propios datos.
 
 ---
 
