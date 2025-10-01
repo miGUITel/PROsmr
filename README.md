@@ -8,6 +8,9 @@ Material para el módulo optativo de programación de 2º SMR
 3. [Criterios de Calificación](calificacion.md)
 4. [Programación Semanal](tareas_semanales.md)
 
+## Guía de consulta
+
+[Variables, Operaciones, Entrada/Salida y Conversiones](./guia.md)
 ## Recursos
 
 * [Blockly Games](https://blockly.games/) → para iniciación a la lógica de programación sin sintaxis.
