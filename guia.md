@@ -16,7 +16,7 @@ El tipo indica qué tipo de dato puede guardar la variable (número, texto, letr
 
 * Los textos van entre **comillas dobles (" ")**.
 * Las letras (`char`) van entre **comillas simples (' ')**.
-* Cada línea termina con **punto y coma (;)**.
+* Cada línea termina con **punto y coma ( ; )**.
 
 🧩 **Ejemplo:**
 
