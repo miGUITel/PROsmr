@@ -1,24 +1,31 @@
 # Guía de repaso: Variables, Operaciones, Entrada/Salida y Conversiones en Java
 
-## 1. Variables y tipos de datos básicos
+## 1. Crear variables con su tipo y darles un valor
 
-Las variables almacenan información que el programa necesita usar.
-Tipos básicos trabajados:
+En Java, **todas las variables deben tener un tipo**.
+El tipo indica qué tipo de dato puede guardar la variable (número, texto, letra…).
 
-* `int`: números enteros.
-* `double`: números decimales.
-* `String`: texto.
-* `char`: un solo carácter.
+| Tipo     | Qué guarda                      | Ejemplo de declaración     |
+| -------- | ------------------------------- | -------------------------- |
+| `int`    | Números enteros (sin decimales) | `int edad = 20;`           |
+| `double` | Números con decimales           | `double nota = 8.5;`       |
+| `String` | Textos o palabras               | `String nombre = "Laura";` |
+| `char`   | Una sola letra o símbolo        | `char inicial = 'L';`      |
 
-**Ejemplo en Java:**
+📌 **Recuerda:**
+
+* Los textos van entre **comillas dobles (" ")**.
+* Las letras (`char`) van entre **comillas simples (' ')**.
+* Cada línea termina con **punto y coma (;)**.
+
+🧩 **Ejemplo:**
 
 ```java
 int edad = 20;
-double precio = 9.99;
-String nombre = "Ana";
-char inicial = 'A';
+double nota = 8.5;
+String nombre = "Laura";
+char inicial = 'L';
 ```
-
 ---
 
 ## 2. Operaciones básicas
@@ -38,23 +45,29 @@ String saludo = "Hola " + nombre; // "Hola Ana"
 
 ---
 
-## 3. Entrada y salida de datos
+## 3. Pedir datos al usuario (entrada por teclado)
 
-* **Salida**: mostrar por consola.
-* **Entrada**: leer datos del usuario con `Scanner`.
+Para leer datos que escribe el usuario, usamos un **objeto de tipo `Scanner`**.
 
-**Ejemplo en Java:**
+1. Primero se **importa** la clase:
 
-```java
-import java.util.Scanner;
+   ```java
+   import java.util.Scanner;
+   ```
+2. Luego se **crea el objeto**:
 
-Scanner sc = new Scanner(System.in);
+   ```java
+   Scanner sc = new Scanner(System.in);
+   ```
+3. Y después se **piden los datos** con diferentes métodos según el tipo:
 
-System.out.print("Introduce tu edad: ");
-int edad = sc.nextInt();
+| Tipo de dato | Método             | Ejemplo                               |
+| ------------ | ------------------ | ------------------------------------- |
+| `int`        | `nextInt()`        | `int edad = sc.nextInt();`            |
+| `double`     | `nextDouble()`     | `double nota = sc.nextDouble();`      |
+| `String`     | `nextLine()`       | `String nombre = sc.nextLine();`      |
+| `char`       | `next().charAt(0)` | `char inicial = sc.next().charAt(0);` |
 
-System.out.println("Tienes " + edad + " años.");
-```
 
 ---
 
@@ -82,6 +95,55 @@ int valor = 100;
 String cadena = String.valueOf(valor);
 ```
 
+
+
 ---
 
-¿Quieres que prepare esto en **versión “guía visual”** con cuadros resaltados (ejemplo + resultado esperado) para que los alumnos lo tengan aún más claro?
+
+🧩 **Ejemplo completo:**
+
+```java
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Introduce tu edad: ");
+        int edad = sc.nextInt();
+
+        System.out.print("Introduce tu nota: ");
+        double nota = sc.nextDouble();
+
+        sc.nextLine(); // limpia el salto de línea pendiente
+
+        System.out.print("Introduce tu nombre: ");
+        String nombre = sc.nextLine();
+
+        System.out.print("Introduce la inicial de tu nombre: ");
+        char inicial = sc.next().charAt(0);
+
+        System.out.println("\n--- Datos introducidos ---");
+        System.out.println("Edad: " + edad);
+        System.out.println("Nota: " + nota);
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Inicial: " + inicial);
+    }
+}
+```
+
+📤 **Ejecución típica:**
+
+```
+Introduce tu edad: 20
+Introduce tu nota: 8.5
+Introduce tu nombre: Laura
+Introduce la inicial de tu nombre: L
+
+--- Datos introducidos ---
+Edad: 20
+Nota: 8.5
+Nombre: Laura
+Inicial: L
+```
+
