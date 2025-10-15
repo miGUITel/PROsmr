@@ -1,6 +1,7 @@
-# PROsmr
+# SMR 2: INTRODUCCIÓN A LA PROGRAMACIÓN
 Material para el módulo optativo de programación de 2º SMR
 
+![alt text](image.png) ![alt text](image-1.png)
 ## Documentos relacionados
 
 1. [Criterios de evaluación](criteriosEvaluacion.md)
