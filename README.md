@@ -10,7 +10,7 @@ Material para el módulo optativo de programación de 2º SMR
 
 ## Guía de consulta
 
-[Variables, Operaciones, Entrada/Salida y Conversiones](./guia.md)
+1. [Variables, Operaciones, Entrada/Salida y Conversiones](./guias/guia.md)
 
 ## Recursos
 

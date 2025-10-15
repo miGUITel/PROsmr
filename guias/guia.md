@@ -1,16 +1,16 @@
-# Guía de repaso: Variables, Operaciones, Entrada/Salida y Conversiones en Java
+# 1 Guía de repaso: Variables, Operaciones, Entrada/Salida y Conversiones en Java
 
-## 1. Crear variables con su tipo y darles un valor
+## 1a. Crear variables con su tipo
 
 En Java, **todas las variables deben tener un tipo**.
 El tipo indica qué tipo de dato puede guardar la variable (número, texto, letra…).
 
 | Tipo     | Qué guarda                      | Ejemplo de declaración     |
 | -------- | ------------------------------- | -------------------------- |
-| `int`    | Números enteros (sin decimales) | `int edad = 20;`           |
-| `double` | Números con decimales           | `double nota = 8.5;`       |
-| `String` | Textos o palabras               | `String nombre = "Laura";` |
-| `char`   | Una sola letra o símbolo        | `char inicial = 'L';`      |
+| `int`    | Números enteros (sin decimales) | `int edad;`           |
+| `double` | Números con decimales           | `double nota;`       |
+| `String` | Textos o palabras               | `String nombre;` |
+| `char`   | Una sola letra o símbolo        | `char inicial;`      |
 
 📌 **Recuerda:**
 
@@ -18,16 +18,20 @@ El tipo indica qué tipo de dato puede guardar la variable (número, texto, letr
 * Las letras (`char`) van entre **comillas simples (' ')**.
 * Cada línea termina con **punto y coma ( ; )**.
 
+---
+## 1b. Dar valor a una variable
+
+El valor que le demos a la variable tiene que ser adecuado al tipo de la variable:
+
 🧩 **Ejemplo:**
 
 ```java
-int edad = 20;
-double nota = 8.5;
-String nombre = "Laura";
-char inicial = 'L';
+edad = 20;
+nota = 8.5;
+nombre = "Laura";
+inicial = 'L';
 ```
 ---
-
 ## 2. Operaciones básicas
 
 Podemos operar con los datos guardados en las variables.
@@ -38,11 +42,14 @@ Podemos operar con los datos guardados en las variables.
 **Ejemplo en Java:**
 
 ```java
-int suma = 5 + 3;          // 8
-double division = 10 / 4.0; // 2.5
-String saludo = "Hola " + nombre; // "Hola Ana"
-```
+int suma;
+double division;
+String saludo;
 
+suma = 5 + 3;                // 8
+division = 10 / 4.0;         // 2.5
+saludo = "Hola " + nombre;   // "Hola Ana"
+```
 ---
 
 ## 3. Pedir datos al usuario (entrada por teclado)
@@ -52,21 +59,50 @@ Para leer datos que escribe el usuario, usamos un **objeto de tipo `Scanner`**.
 1. Primero se **importa** la clase:
 
    ```java
+   //arriba, fuera de nuestro programa
    import java.util.Scanner;
    ```
 2. Luego se **crea el objeto**:
 
    ```java
+   //dentro de nuestro programa
    Scanner sc = new Scanner(System.in);
    ```
 3. Y después se **piden los datos** con diferentes métodos según el tipo:
 
-| Tipo de dato | Método             | Ejemplo                               |
-| ------------ | ------------------ | ------------------------------------- |
-| `int`        | `nextInt()`        | `int edad = sc.nextInt();`            |
-| `double`     | `nextDouble()`     | `double nota = sc.nextDouble();`      |
-| `String`     | `nextLine()`       | `String nombre = sc.nextLine();`      |
-| `char`       | `next().charAt(0)` | `char inicial = sc.next().charAt(0);` |
+```java
+//se importa el Scanner, observa que está fuera del programa
+import java.util.Scanner;
+
+public class EjemploScanner {
+    public static void main(String[] args) {
+        //se crea un Scanner llamado sc, observa que está dentro del programa
+        Scanner sc = new Scanner(System.in);
+
+        //se declaran las varibles
+        int edad;
+        double nota;
+        String nombre;
+        char inicial;
+
+        //el usuario da valor a las varibles, con un mensaje previo (Introduce tu edad...)
+        System.out.print("Introduce tu edad: ");
+        edad = sc.nextInt();
+
+        System.out.print("Introduce tu nota: ");
+        nota = sc.nextDouble();
+
+        sc.nextLine(); // Limpiamos el buffer (la línea de la consola donde el usuario puede escribir, respondiendo a las preguntas) porque nextInt() y nextDouble() no leen el salto de línea, y puede afectar a la siguiente lectura de texto
+
+        System.out.print("Introduce tu nombre: ");
+        nombre = sc.nextLine();
+
+        System.out.print("Introduce la inicial de tu nombre: ");
+        inicial = sc.next().charAt(0);
+
+    }
+}
+```
 
 
 ---
@@ -95,7 +131,16 @@ int valor = 100;
 String cadena = String.valueOf(valor);
 ```
 
+## 5. Mostrar mensajes al usuario: print
 
+```java
+
+        System.out.println("\n--- Datos introducidos ---");
+        System.out.println("Edad: " + edad);
+        System.out.println("Nota: " + nota);
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Inicial: " + inicial);
+```
 
 ---
 
