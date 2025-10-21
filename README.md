@@ -12,6 +12,7 @@ Material para el módulo optativo de programación de 2º SMR
 ## Guía de consulta
 
 1. [Variables, Operaciones, Entrada/Salida y Conversiones](./guias/guia.md)
+2. [Uso de VSC como IDE para java](./guias/vsc.md)
 
 ## Recursos
 
