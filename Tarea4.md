@@ -1,5 +1,13 @@
 ## Repaso: variables, tipos, entrada y salida, operaciones.
 
+> Cada vez que respondas:
+//comentario definir las variables
+// dar un valor inicial a las variables
+// mostrar el valor actual de las variables
+// pedir respuesta al usuario
+// operar con los datos
+// conversión
+
 **Ejercicio 1.**
 Crea tres variables para almacenar el nombre, la edad y la nota media de un alumno.
 Asigna valores adecuados a cada una y muestra su contenido por pantalla.
