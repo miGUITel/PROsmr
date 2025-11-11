@@ -78,7 +78,7 @@ public static void main(String[] args) {
 
 📌 **Concepto clave:** los parámetros permiten que una misma función sirva para muchos casos distintos.
 
-👉 Usar el debugger para ver por dónde **avanza el flujo de control**
+👉 Usar el debugger para ver **cómo cambia el valor del parámetro** y por dónde avanza el flujo.
 
 ---
 
@@ -103,6 +103,8 @@ public static void main(String[] args) {
 * El valor devuelto se guarda en `resultado`.
 
 📌 **Importante:** el tipo de dato del `return` (aquí `int`) debe coincidir con el declarado en la función.
+
+👉 Usar el debugger para ver **cómo cambia el valor del parámetro** y por dónde avanza el flujo.
 
 ---
 
