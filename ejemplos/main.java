@@ -1,5 +1,11 @@
 public class main {
-    public static void main(String[] args) {
-        System.out.println("Hola Mundo");
-    }
+public static void saludar(String palabra) {
+    System.out.println("Hola, " + palabra + "!");
+}
+
+public static void main(String[] args) {
+    saludar("María");
+    saludar("Luis");
+    saludar("Genaro");
+}
 }
