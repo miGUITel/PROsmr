@@ -1,11 +1,21 @@
 public class main {
-public static void saludar(String palabra) {
-    System.out.println("Hola, " + palabra + "!");
-}
 
-public static void main(String[] args) {
-    saludar("María");
-    saludar("Luis");
-    saludar("Genaro");
-}
+    public static void saludar(){
+        System.out.println("Hola qué tal");
+
+    }    
+    
+    public static void preguntar(){
+        System.out.println("cómo te llamas?");
+    }
+
+    public static void main(String[] args) {
+
+        System.out.println("Bienvenido al fantástico programa");
+
+        saludar();
+
+        preguntar();
+
+    }
 }
