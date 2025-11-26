@@ -2,18 +2,22 @@
 Material para el módulo optativo de programación de 2º SMR
 
 ![alt text](image.png) ![alt text](image-1.png)
-## Documentos relacionados
-
-1. [Criterios de evaluación](criteriosEvaluacion.md)
-2. [Metodología](metodologia.md)
-3. [Criterios de Calificación](calificacion.md)
-4. [Programación Semanal](tareas_semanales.md)
 
 ## Guía de consulta
 
 1. [Variables, Operaciones, Entrada/Salida y Conversiones](./guias/guia.md)
 2. [Uso de VSC como IDE para java](./guias/vsc/vsc.md)
 3. [Funciones](./guias/funciones/guiaFunc.md)
+4. [Condicionales](./guias/condicional/condicional.md)
+
+
+## Documentos relacionados
+
+1. [TAREAS Programación Semanal](tareas_semanales.md)
+2. [Criterios de evaluación](criteriosEvaluacion.md)
+3. [Metodología](metodologia.md)
+4. [Criterios de Calificación](calificacion.md)
+
 
 ## Recursos
 
