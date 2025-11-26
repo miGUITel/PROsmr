@@ -1,4 +1,5 @@
 - [📅 Planificación de 20 semanas – Fundamentos de la Programación](#-planificación-de-20-semanas--fundamentos-de-la-programación)
+    - [⚠️ Esta programación ha sido modificada para adecuarse a la evolución del alumnado](#️-esta-programación-ha-sido-modificada-para-adecuarse-a-la-evolución-del-alumnado)
   - [Semana 1](#semana-1)
   - [Semanas 2 – 16 → RA1, RA2 y RA3 (10 tareas)](#semanas-2--16--ra1-ra2-y-ra3-10-tareas)
     - [**Tarea 1: Primeros pasos con el entorno**](#tarea-1-primeros-pasos-con-el-entorno)
@@ -18,6 +19,8 @@
 
 
 # 📅 Planificación de 20 semanas – Fundamentos de la Programación
+
+### ⚠️ Esta programación ha sido modificada para adecuarse a la evolución del alumnado
 
 ## Semana 1
 
