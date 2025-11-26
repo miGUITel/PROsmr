@@ -1,8 +1,15 @@
-- [🔹 Funciones **sin parámetros** y **sin return**](#-funciones-sin-parámetros-y-sin-return-1)
-- [🔸 Funciones **con parámetros** pero **sin return**](#-funciones-con-parámetros-pero-sin-return-1)
-- [🔹 Funciones **con parámetros** y **return**](#-funciones-con-parámetros-y-return-1)
+- [INI](#ini)
+    - [**INI Funciones sin parámetros y sin return**](#ini-funciones-sin-parámetros-y-sin-return)
+    - [**INI Funciones con parámetros pero sin return**](#ini-funciones-con-parámetros-pero-sin-return)
+    - [**INI Funciones con parámetros y return**](#ini-funciones-con-parámetros-y-return)
+- [EXTRA](#extra)
+    - [EXTRA Funciones **sin parámetros** y **sin return**](#extra-funciones-sin-parámetros-y-sin-return)
+    - [EXTRA Funciones **con parámetros** pero **sin return**](#extra-funciones-con-parámetros-pero-sin-return)
+    - [EXTRA Funciones **con parámetros** y **return**](#extra-funciones-con-parámetros-y-return)
 
-### 🔹 **Funciones sin parámetros y sin return**
+# INI
+
+### **INI Funciones sin parámetros y sin return**
 
 **1. Mostrar un saludo**
 
@@ -16,7 +23,7 @@
 
 ---
 
-### 🔸 **Funciones con parámetros pero sin return**
+### **INI Funciones con parámetros pero sin return**
 
 **3. Mostrar un saludo personalizado**
 
@@ -37,7 +44,7 @@
 
 ---
 
-### 🔹 **Funciones con parámetros y return**
+### **INI Funciones con parámetros y return**
 
 **5. Calcular el doble de un número**
 
@@ -49,10 +56,10 @@
 > Crea una función llamada `mayor` que reciba dos números enteros y devuelva el mayor de ellos.
 > En el programa principal, pide al usuario dos números y muestra cuál es el mayor utilizando el valor devuelto.
 
-### EXTRA
+# EXTRA
 
 
-## 🔹 Funciones **sin parámetros** y **sin return**
+### EXTRA Funciones **sin parámetros** y **sin return**
 
 1. Mostrar información del curso
 
@@ -81,7 +88,7 @@
 
 ---
 
-## 🔸 Funciones **con parámetros** pero **sin return**
+### EXTRA Funciones **con parámetros** pero **sin return**
 
 3. Mostrar la suma formateada
 
@@ -111,7 +118,7 @@
 
 ---
 
-## 🔹 Funciones **con parámetros** y **return**
+### EXTRA Funciones **con parámetros** y **return**
 
 5. Calcular la media de tres notas
 
