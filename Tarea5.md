@@ -57,7 +57,7 @@
 > Debe devolver (no imprimir en consola) el mensaje "Hola Nombre bienvenido a mi casa"
 > En `main`, pide al usuario un nombre y muestra por consola (ahora sí) el mensaje .
 
-**X. Calcular el mayor de dos números (NECESITA CONDICIONALES)**
+**X. Calcular el mayor de dos números (Utiliza la función Math.max)**
 
 > Crea una función llamada `mayor` que reciba dos números enteros y devuelva el mayor de ellos.
 > En el programa principal, pide al usuario dos números y muestra cuál es el mayor utilizando el valor devuelto.
