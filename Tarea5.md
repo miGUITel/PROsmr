@@ -51,7 +51,13 @@
 > Crea una función llamada `doble` que reciba un número entero y devuelva su doble.
 > En `main`, pide al usuario un número, llama a la función y muestra el resultado.
 
-**6. Calcular el mayor de dos números**
+**6. Devolver un mensaje personalizado**
+
+> Crea una función llamada que reciba el nombre de un usuario.
+> Debe devolver (no imprimir en consola) el mensaje "Hola Nombre bienvenido a mi casa"
+> En `main`, pide al usuario un nombre y muestra por consola (ahora sí) el mensaje .
+
+**X. Calcular el mayor de dos números (NECESITA CONDICIONALES)**
 
 > Crea una función llamada `mayor` que reciba dos números enteros y devuelva el mayor de ellos.
 > En el programa principal, pide al usuario dos números y muestra cuál es el mayor utilizando el valor devuelto.
