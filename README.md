@@ -9,6 +9,7 @@ Material para el módulo optativo de programación de 2º SMR
 2. [Uso de VSC como IDE para java](./guias/vsc/vsc.md)
 3. [Funciones](./guias/funciones/guiaFunc.md)
 4. [Condicionales](./guias/condicional/condicional.md)
+5. [Condicionales 2](./guias/condicional/condicioinalV2.md)
 
 
 ## Documentos relacionados
