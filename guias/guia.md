@@ -104,6 +104,7 @@ public class EjemploScanner {
 }
 ```
 
+[Más sobre limpiar el buffer](./amplia/limpiaBuffer.md)
 
 ---
 
