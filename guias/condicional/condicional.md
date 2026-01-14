@@ -105,6 +105,7 @@ if (edad >= 18) {
     System.out.println("Mayor de edad");
 }
 ```
+![alt text](image.png)
 
 Otro ejemplo:
 

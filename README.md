@@ -10,6 +10,7 @@ Material para el módulo optativo de programación de 2º SMR
 3. [Funciones](./guias/funciones/guiaFunc.md)
 4. [Condicionales](./guias/condicional/condicional.md)
 5. [Condicionales 2](./guias/condicional/condicioinalV2.md)
+6. [Bucles con while](./guias/bucles/1while.md)
 
 
 ## Documentos relacionados

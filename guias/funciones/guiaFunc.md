@@ -11,6 +11,8 @@
 
 # 📘 Guía: Introducción a las funciones en programación
 
+![alt text](image.png)
+
 ## 1️⃣ ¿Por qué usamos funciones?
 
 Imagina que estás escribiendo un programa que muestra mensajes en pantalla varias veces:

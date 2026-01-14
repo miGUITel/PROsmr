@@ -31,6 +31,8 @@ nota = 8.5;
 nombre = "Laura";
 inicial = 'L';
 ```
+![alt text](image.png)
+
 ---
 ## 2. Operaciones básicas
 
@@ -68,6 +70,8 @@ Para leer datos que escribe el usuario, usamos un **objeto de tipo `Scanner`**.
    //dentro de nuestro programa
    Scanner sc = new Scanner(System.in);
    ```
+   ![alt text](image-1.png)
+
 3. Y después se **piden los datos** con diferentes métodos según el tipo:
 
 ```java

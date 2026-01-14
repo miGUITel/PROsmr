@@ -47,6 +47,7 @@ if (bateria > 20) {
     System.out.println("Activa el modo ahorro.");
 }
 ```
+![alt text](image-1.png)
 
 Es una decisión **binaria**.
 
@@ -71,6 +72,8 @@ if (senal >= -50) {
     System.out.println("Muy débil");
 }
 ```
+
+![alt text](image-2.png)
 
 Tres ideas clave:
 
