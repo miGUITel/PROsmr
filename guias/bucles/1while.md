@@ -1,4 +1,7 @@
+1. [Uso de VSC como IDE para java](../../guias/vsc/vsc.md) 2. [Variables, Operaciones, Entrada/Salida y Conversiones](../../guias/guia.md) 3. [Funciones](../../guias/funciones/guiaFunc.md) 4. [Condicionales](../../guias/condicional/condicional.md) 5. [Condicionales 2](../../guias/condicional/condicioinalV2.md) 6. [Bucles con while](../../guias/bucles/1while.md)
+
 - [¿Qué es un bucle `while`?](#qué-es-un-bucle-while)
+- [](#)
 - [Estructura del `while` en Java](#estructura-del-while-en-java)
 - [Ejemplo sencillo](#ejemplo-sencillo)
   - [Qué ocurre paso a paso:](#qué-ocurre-paso-a-paso)
@@ -18,6 +21,7 @@ La idea clave es esta:
 > **Mientras la condición sea verdadera, el código se repite.**
 > **Cuando deja de serlo, el bucle termina.**
 
+![alt text](image.png)
 ---
 
 ## Estructura del `while` en Java
@@ -27,6 +31,7 @@ while (condición) {
     // instrucciones que se repiten
 }
 ```
+![alt text](image-1.png)
 
 * **condición**: se evalúa **antes de cada repetición**.
 * Si la condición es `false` desde el principio, **el bucle no se ejecuta ni una sola vez**.
@@ -35,23 +40,23 @@ while (condición) {
 
 ## Ejemplo sencillo
 
-Mostrar los números del 1 al 5:
+Cargar batería hasta 50%:
 
 ```java
-int i = 1;
+int bateria = 1;
 
-while (i <= 5) {
-    System.out.println(i);
-    i++;
+while (bateria <= 50) {
+    System.out.println("Cargando");
+    bateria++;
 }
 ```
 
 ### Qué ocurre paso a paso:
 
-1. `i` empieza valiendo 1.
-2. Se comprueba `i <= 5`.
+1. `bateria` empieza valiendo 1.
+2. Se comprueba `bateria <= 50`.
 3. Si es `true`, se ejecuta el bloque.
-4. `i++` modifica la variable.
+4. `bateria++` modifica la variable.
 5. Se vuelve a comprobar la condición.
 
 ---
@@ -62,8 +67,8 @@ Todo `while` **debe tener una forma clara de terminar**.
 
 En el ejemplo anterior, el bucle termina porque:
 
-* `i` va aumentando.
-* Llega un momento en que `i <= 5` es `false`.
+* `bateria` va aumentando.
+* Llega un momento en que `bateria <= 5` es `false`.
 
 Si la condición **nunca cambia**, el bucle será **infinito**.
 

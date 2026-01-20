@@ -1,3 +1,5 @@
+1. [Uso de VSC como IDE para java](../../guias/vsc/vsc.md) 2. [Variables, Operaciones, Entrada/Salida y Conversiones](../../guias/guia.md) 3. [Funciones](../../guias/funciones/guiaFunc.md) 4. [Condicionales](../../guias/condicional/condicional.md) 5. [Condicionales 2](../../guias/condicional/condicioinalV2.md) 6. [Bucles con while](../../guias/bucles/1while.md)
+
 - [🧭 **Guía Avanzada de Condicionales**](#-guía-avanzada-de-condicionales)
     - [1. ¿qué sabemos ya?](#1-qué-sabemos-ya)
     - [2. `if / else`: cuando solo puede ocurrir una de dos cosas](#2-if--else-cuando-solo-puede-ocurrir-una-de-dos-cosas)
