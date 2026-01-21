@@ -63,12 +63,12 @@ Cada pregunta vale **3 puntos**, distribuidos así:
 
 ### ✔ **1 punto — Comentarios en el código**
 
-El alumno explica brevemente qué hace cada parte del programa:
-declaración de variables, lectura de datos, funciones creadas, uso de condicionales y salida final.
+El alumno marca con un comentario qué hace cada parte del programa:
+declaración de variables, entrada de datos, funciones creadas, uso de condicionales, uso de bucles y salida.
 
 ### ✔ **1 punto — Código que responde al enunciado**
 
-Incluye todas las funciones, variables, condicionales y operaciones requeridas, siguiendo exactamente las reglas del ejercicio.
+Incluye las funciones, variables, condicionales y operaciones requeridas, siguiendo las reglas del ejercicio.
 
 ### ✔ **1 punto — Funcionamiento correcto**
 
