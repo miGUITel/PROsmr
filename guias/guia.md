@@ -1,6 +1,15 @@
 1. [Uso de VSC como IDE para java](../guias/vsc/vsc.md) 2. [Variables, Operaciones, Entrada/Salida y Conversiones](../guias/guia.md) 3. [Funciones](../guias/funciones/guiaFunc.md) 4. [Condicionales](../guias/condicional/condicional.md) 5. [Condicionales 2](../guias/condicional/condicioinalV2.md) 6. [Bucles con while](../guias/bucles/1while.md)
    
-# 1 Guía de repaso: Variables, Operaciones, Entrada/Salida y Conversiones en Java
+# 1 Guía Variables, Operaciones, Entrada/Salida y Conversiones en Java
+
+- [1 Guía Variables, Operaciones, Entrada/Salida y Conversiones en Java](#1-guía-variables-operaciones-entradasalida-y-conversiones-en-java)
+  - [1a. Crear variables con su tipo](#1a-crear-variables-con-su-tipo)
+  - [1b. Dar valor a una variable](#1b-dar-valor-a-una-variable)
+  - [2. Operaciones básicas](#2-operaciones-básicas)
+  - [3. Mostrar mensajes al usuario: print](#3-mostrar-mensajes-al-usuario-print)
+  - [4. Pedir datos al usuario (entrada por teclado)](#4-pedir-datos-al-usuario-entrada-por-teclado)
+  - [5. Conversiones básicas](#5-conversiones-básicas)
+
 
 ## 1a. Crear variables con su tipo
 
@@ -35,6 +44,11 @@ inicial = 'L';
 ```
 ![alt text](image.png)
 
+```java
+int bateria; //declara la variable bateria de tipo entero
+bateria = 50;
+```
+
 ---
 ## 2. Operaciones básicas
 
@@ -56,7 +70,21 @@ saludo = "Hola " + nombre;   // "Hola Ana"
 ```
 ---
 
-## 3. Pedir datos al usuario (entrada por teclado)
+## 3. Mostrar mensajes al usuario: print
+
+```java
+
+        System.out.println("\n--- Datos introducidos ---");
+        System.out.println("Edad: " + edad);
+        System.out.println("Nota: " + nota);
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Inicial: " + inicial);
+```
+
+---
+
+
+## 4. Pedir datos al usuario (entrada por teclado)
 
 Para leer datos que escribe el usuario, usamos un **objeto de tipo `Scanner`**.
 
@@ -72,7 +100,7 @@ Para leer datos que escribe el usuario, usamos un **objeto de tipo `Scanner`**.
    //dentro de nuestro programa
    Scanner sc = new Scanner(System.in);
    ```
-   ![alt text](image-1.png)
+
 
 3. Y después se **piden los datos** con diferentes métodos según el tipo:
 
@@ -108,13 +136,32 @@ public class EjemploScanner {
 
     }
 }
+
 ```
+
+> Seguimos comparando con Scrath:
+
+   ![alt text](image-1.png)
+
+
+```java
+    //Seguimos con el ejemplo de la batería (previamente se importó Scanner)
+
+      Scanner sc = new Scanner(System.in); //Creo la estructura que me va a permitir leer la respuesta del usuario (se llama objeto, sc en este caso)
+
+      int bateria; //creo la variable para almacenar el porcentaje de batería (que será un número entero)
+
+      System.out.println("¿Qué porcentaje de carga tiene la batería en este momento?"); //mostramos un mensaje al usuario
+
+      bateria = sc.nextInt(); //Almacena en bateria el número introducido por el usuario
+
+   ```
 
 [Más sobre limpiar el buffer](./amplia/limpiaBuffer.md)
 
 ---
 
-## 4. Conversiones básicas
+## 5. Conversiones básicas
 
 A veces es necesario transformar datos de un tipo a otro.
 
@@ -138,18 +185,6 @@ int valor = 100;
 String cadena = String.valueOf(valor);
 ```
 
-## 5. Mostrar mensajes al usuario: print
-
-```java
-
-        System.out.println("\n--- Datos introducidos ---");
-        System.out.println("Edad: " + edad);
-        System.out.println("Nota: " + nota);
-        System.out.println("Nombre: " + nombre);
-        System.out.println("Inicial: " + inicial);
-```
-
----
 
 
 🧩 **Ejemplo completo:**

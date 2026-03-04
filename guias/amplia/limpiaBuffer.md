@@ -1,6 +1,4 @@
-Sí, **en este caso concreto es necesario**, y merece la pena entender bien *por qué*, porque es una de esas situaciones que en programación aparecen constantemente y que, si no se comprenden, parecen “errores mágicos”.
-
----
+> Aclaración de lo que 
 
 ## Qué está pasando realmente
 
