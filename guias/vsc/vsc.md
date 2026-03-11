@@ -69,3 +69,11 @@ Puedes guardar los cambios con **Ctrl + S**.
 Verás en la terminal el resultado del programa.
 
 ![alt text](image-3.png)
+
+### ERRORES COMUNES
+
+* NO ESTOY EN LA CARPETA ADECUAD EN LA TERMINAL: Al tratar de compilar mi archivo con `javac` obtengo el error `file not found`
+* HE ESCRITO CAMBIOS PERO NO LOS HE GUARDADO: MIRAR EL PUNTO BLANCO EN LA PESTAÑA DE VSC
+* ERRORES DE SINTAXIS: falta el `;` , llaves sin cerrar `{ }`
+* LA CLASE NO SE LLAMA IGUAL QUE EL ARCHIVO: miPrograma.java => `public class miPrograma`
+* EL ARCHIVO NO TIENE LA EXTENSIÓN .java
