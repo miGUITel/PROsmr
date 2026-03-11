@@ -76,4 +76,6 @@ Verás en la terminal el resultado del programa.
 * HE ESCRITO CAMBIOS PERO NO LOS HE GUARDADO: MIRAR EL PUNTO BLANCO EN LA PESTAÑA DE VSC
 * ERRORES DE SINTAXIS: falta el `;` , llaves sin cerrar `{ }`
 * LA CLASE NO SE LLAMA IGUAL QUE EL ARCHIVO: miPrograma.java => `public class miPrograma`
+* EL PAQUETE NO SE LLAMA IGUAL QUE LA CARPETA: programas/miPrograma.java => `package programas`
 * EL ARCHIVO NO TIENE LA EXTENSIÓN .java
+
