@@ -5,7 +5,9 @@
 ### 1. Crear el archivo
 
 * Abre **Visual Studio Code**.
-* Crea una nueva carpeta para tus programas Java.
+* Abre una ventana nueva: File -> NewWindow
+* Crea una nueva carpeta para tus programas Java. Para este ejemplo la llamaremos miCarpeta: ~/Documentos/miCarpeta
+* File -> OpenFolder: selecciona miCarpeta
 * Dentro de ella, crea un nuevo archivo llamado por ejemplo:
 
   ```
@@ -18,6 +20,8 @@
 En el archivo escribe la estructura mínima de un programa Java:
 
 ```java
+package miCarpeta; //Esta línea le dice a java que la clase Programa está en el paquete miCarpeta
+
 public class Programa {
     public static void main(String[] args) {
         // Aquí irá tu código
