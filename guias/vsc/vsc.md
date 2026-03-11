@@ -20,7 +20,6 @@
 En el archivo escribe la estructura mínima de un programa Java:
 
 ```java
-package miCarpeta; //Esta línea le dice a java que la clase Programa está en el paquete miCarpeta
 
 public class Programa {
     public static void main(String[] args) {
