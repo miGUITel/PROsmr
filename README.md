@@ -12,6 +12,9 @@ Material para el módulo optativo de programación de 2º SMR
 5. [Condicionales 2](./guias/condicional/condicioinalV2.md)
 6. [Bucles con while](./guias/bucles/1while.md)
 
+## Ampliación
+2. 1 [Limpiar el buffer en funciones de Entrada: Scanner](./guias/amplia/limpiaBuffer.md)
+3. 1 [¿Qué es args en main?](./guias/amplia/args-main.md)
 
 ## Documentos relacionados
 
