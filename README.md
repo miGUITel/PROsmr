@@ -13,6 +13,7 @@ Material para el módulo optativo de programación de 2º SMR
 6. [Bucles con while](./guias/bucles/1while.md)
 
 ## Ampliación
+1. 1 [Errores comunes](./guias/vsc/vsc.md/#errores-comunes)
 2. 1 [Limpiar el buffer en funciones de Entrada: Scanner](./guias/amplia/limpiaBuffer.md)
 3. 1 [¿Qué es args en main?](./guias/amplia/args-main.md)
 
