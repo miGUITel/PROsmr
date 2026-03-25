@@ -9,11 +9,13 @@
   - [⚠️ 6️⃣ Dificultades frecuentes y cómo superarlas](#️-6️⃣-dificultades-frecuentes-y-cómo-superarlas)
   - [🧠 7️⃣ Para reflexionar](#-7️⃣-para-reflexionar)
   - [✅ 8️⃣ Actividad propuesta](#-8️⃣-actividad-propuesta)
+    - [Pizarra explicación](#pizarra-explicación)
 
 
 # 📘 Guía: Introducción a las funciones en programación
 
 ![alt text](image.png)
+
 
 ## 1️⃣ ¿Por qué usamos funciones?
 
@@ -120,13 +122,15 @@ Un ejemplo más completo: **calcular áreas de figuras.**
 import java.util.Scanner;
 
 public class Areas {
-    public static double areaRectangulo(double base, double altura) {
-        return base * altura;
-    }
 
-    public static double areaTriangulo(double base, double altura) {
+    public static double calcularAreaTriangulo(double base, int altura) {
         return base * altura / 2;
     }
+
+    public static double calcularAreaCuadrado(double base) {
+        return base * base;
+    }
+
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -137,8 +141,14 @@ public class Areas {
         System.out.print("Introduce altura: ");
         double altura = sc.nextDouble();
 
-        System.out.println("Área del rectángulo: " + areaRectangulo(base, altura));
-        System.out.println("Área del triángulo: " + areaTriangulo(base, altura));
+        double areaCuadrado;
+        double areaTriangulo;
+
+        areaCuadrado = calcularAreaCuadrado(base);
+        areaTriangulo = calcularAreaTriangulo(base, altura);
+
+        System.out.println("Área del cuadrado: " + areaCuadrado);
+        System.out.println("Área del triángulo: " + areaTriangulo);
     }
 }
 ```
@@ -175,12 +185,13 @@ Antes de seguir, responde tú mismo:
 
 ## ✅ 8️⃣ Actividad propuesta
 
-Crea un programa que:
+Entre todos creamos una tabla con varios diseños de funciones: 
 
-1. Pida al usuario dos números enteros.
-2. Defina una función que devuelva el **mayor** de los dos.
-3. Muestre el resultado en pantalla.
+TIPO RETORNO | NOMBRE | PARÁMETROS
 
-> 🎯 Objetivo: practicar paso de parámetros, uso de `return` y llamada desde `main`.
+Escribimos los cinco programas
 
+### Pizarra explicación
+
+![alt text](pi.jpg)
 
