@@ -9,6 +9,7 @@
 - [Ejemplo con entrada por teclado](#ejemplo-con-entrada-por-teclado)
 - [Errores típicos a evitar](#errores-típicos-a-evitar)
 - [Idea para conectar con la vida real](#idea-para-conectar-con-la-vida-real)
+- [Estrategia didáctica, relacionando con condicional](#estrategia-didáctica-relacionando-con-condicional)
 
 
 ## ¿Qué es un bucle `while`?
@@ -114,3 +115,9 @@ Un `while` es como decir:
 > “Mientras el semáforo esté en rojo, sigo parado”.
 
 En el momento en que deja de estar en rojo, **sales del bucle** y continúas con el programa.
+
+## Estrategia didáctica, relacionando con condicional
+
+* De la misma manera que el `if` lleva asociado una condición que se introduce entre paréntesis `( condición )`
+* El bucle debe tener una condición de salida `while ( condición )`
+![alt text](pizarraWhileIf.jpg)
