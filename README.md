@@ -3,7 +3,15 @@ Material para el módulo optativo de programación de 2º SMR
 
 ![alt text](image.png) ![alt text](image-1.png)
 
-## Guía de consulta
+## Guía del curso
+
+1. [TAREAS Programación Semanal](*tareas_semanales.md)
+2. [Criterios de evaluación](criteriosEvaluacion.md)
+3. [Metodología](*metodologia.md)
+4. [Criterios de Calificación](*calificacion.md)
+
+
+## Appuntes
 
 1. [Uso de VSC como IDE para java](./guias/vsc/vsc.md)
 2. [Variables, Operaciones, Entrada/Salida y Conversiones](./guias/guia.md)
@@ -17,12 +25,6 @@ Material para el módulo optativo de programación de 2º SMR
 2. 1 [Limpiar el buffer en funciones de Entrada: Scanner](./guias/amplia/limpiaBuffer.md)
 3. 1 [¿Qué es args en main?](./guias/amplia/args-main.md)
 
-## Documentos relacionados
-
-1. [TAREAS Programación Semanal](tareas_semanales.md)
-2. [Criterios de evaluación](criteriosEvaluacion.md)
-3. [Metodología](metodologia.md)
-4. [Criterios de Calificación](calificacion.md)
 
 
 ## Recursos
