@@ -1,6 +1,6 @@
 1. [Uso de VSC como IDE para java](../../guias/vsc/vsc.md) 2. [Variables, Operaciones, Entrada/Salida y Conversiones](../../guias/guia.md) 3. [Funciones](../../guias/funciones/guiaFunc.md) 4. [Condicionales](../../guias/condicional/condicional.md) 5. [Condicionales 2](../../guias/condicional/condicioinalV2.md) 6. [Bucles con while](../../guias/bucles/1while.md)
 
-- [¿Qué es un bucle `while`?](#qué-es-un-bucle-while)
+- [¿Qué es un bucle `while` en SMR?](#qué-es-un-bucle-while-en-smr)
 - [](#)
 - [Estructura del `while` en Java](#estructura-del-while-en-java)
 - [Ejemplo sencillo](#ejemplo-sencillo)
@@ -12,7 +12,7 @@
 - [Estrategia didáctica, relacionando con condicional](#estrategia-didáctica-relacionando-con-condicional)
 
 
-## ¿Qué es un bucle `while`?
+## ¿Qué es un bucle `while` en SMR?
 
 Un **bucle `while`** permite **repetir un bloque de instrucciones mientras se cumpla una condición**.
 La condición es una expresión lógica que solo puede dar dos resultados: `true` o `false`.
