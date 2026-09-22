@@ -84,7 +84,7 @@ Esto se parece mucho más a cómo funcionan los formularios, ficheros de texto o
 
 ---
 
-## Idea clave para tus alumnos
+## Idea clave
 
 No es un “truco de Scanner”.
 Es un **efecto directo de cómo funciona la entrada de texto**:
@@ -93,4 +93,4 @@ Es un **efecto directo de cómo funciona la entrada de texto**:
 * El Enter también es un carácter.
 * Algunos métodos lo consumen, otros no.
 
-Cuando entienden eso, dejan de memorizar `sc.nextLine()` como receta y empiezan a **razonar qué queda en el buffer**, que es exactamente lo que luego tendrán que hacer con ficheros, sockets o streams.
+Cuando comprendes esto, puedes razonar qué queda pendiente en la entrada en vez de memorizar `sc.nextLine()` como una receta.

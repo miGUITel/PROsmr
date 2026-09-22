@@ -1,28 +1,13 @@
-# 📊 Criterios de calificación generales
+# Calificación del curso 2026-2027
 
-* Para **superar la asignatura es obligatorio superar todas las tareas**, ya que cada una está vinculada directamente a uno o varios **Criterios de Evaluación (CE)**.
-* Cada tarea tiene una ponderación en función de los CE asociados:
+| Bloque de evidencias | Peso en la calificación |
+|---|---:|
+| I. Exámenes tipo test sobre los conceptos de programación | 30 % |
+| II. Prácticas de programación en tiempo limitado y sin Internet | 60 % |
+| III. Dos prácticas guiadas breves: ficheros y bases de datos | 10 % |
 
-  * **1** → si la tarea está asociada a un único CE.
-  * **2** → si la tarea está asociada a varios CE.
+En las prácticas se valorarán el funcionamiento del programa, la comprensión del código, las decisiones tomadas y la comprobación y corrección de errores. Cada enunciado indicará las evidencias y los criterios aplicables.
 
-## Escala de calificación por tarea
+Los resultados de aprendizaje (RA1 a RA5) deben superarse de forma independiente. La calificación global no sustituye la necesidad de demostrar cada RA con evidencias suficientes. Consulta los [RA y criterios de evaluación](criteriosEvaluacion.md).
 
-* **0 puntos** → No entregado.
-* **3 puntos** → Entregado pero no supera la tarea.
-* **6 puntos** → Supera la tarea parcialmente, con errores o aspectos a mejorar.
-* **10 puntos** → Supera la tarea exitosamente.
-
-## Revisión y mejora
-
-* Cuando la calificación sea **3 o 6 puntos**, el profesor indicará **cómo mejorar la tarea**.
-* El alumno podrá volver a presentarla para alcanzar la superación.
-
-## RESUMEN
-
-| Nivel                     | Puntuación    | Descripción                                                                                                   |
-| ------------------------- | ------------- | ------------------------------------------------------------------------------------------------------------- |
-| **No entregado**          | **0 puntos**  | El alumno no entrega la tarea en la fecha indicada.                                                           |
-| **Entregado sin superar** | **3 puntos**  | La tarea está entregada, pero no cumple los objetivos mínimos. Presenta errores graves o incompletitud.       |
-| **Supera parcialmente**   | **6 puntos**  | La tarea alcanza los objetivos principales, pero contiene errores, faltan apartados o necesita mejoras.       |
-| **Supera exitosamente**   | **10 puntos** | La tarea está completa, bien planteada y sin errores relevantes. Cumple con todos los criterios establecidos. |
+La distribución exacta del 60 % entre las prácticas del bloque II se comunicará cuando se cierre su número y ponderación. Las condiciones concretas de entrega y recuperación se comunicarán por el Aula Virtual.

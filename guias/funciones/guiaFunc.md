@@ -9,7 +9,7 @@
   - [⚠️ 6️⃣ Dificultades frecuentes y cómo superarlas](#️-6️⃣-dificultades-frecuentes-y-cómo-superarlas)
   - [🧠 7️⃣ Para reflexionar](#-7️⃣-para-reflexionar)
   - [✅ 8️⃣ Actividad propuesta](#-8️⃣-actividad-propuesta)
-    - [Pizarra explicación](#pizarra-explicación)
+    - [Esquema de apoyo](#esquema-de-apoyo)
 
 
 # 📘 Guía: Introducción a las funciones en programación
@@ -165,11 +165,11 @@ public class Areas {
 
 | Dificultad                                                       | Ejemplo                                                               | Qué ocurre                                                                               | Cómo corregir                                                                               |
 | ---------------------------------------------------------------- | --------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| **1. Confundir definición y llamada**                            | `public static void saludar();` dentro de `main`                      | El alumno escribe la definición dentro del `main` creyendo que eso “llama” a la función. | Recordar que *definir* es crear el bloque (fuera del `main`), y *llamar* es usar su nombre. |
-| **2. No entender los parámetros**                                | `saludar(nombre);` sin haber declarado `String nombre = "Ana";`       | El parámetro no tiene valor.                                                             | Explicar que los datos se “pasan” al llamar a la función: `saludar("Ana");`                 |
+| **1. Confundir definición y llamada**                            | `public static void saludar();` dentro de `main`                      | Se intenta definir un método dentro de `main`. | *Definir* es crear el bloque fuera de `main`; *llamar* es usar su nombre. |
+| **2. No entender los parámetros**                                | `saludar(nombre);` sin haber declarado `String nombre = "Ana";`       | La variable `nombre` no está declarada. | Pasa un argumento existente, por ejemplo `saludar("Ana");`. |
 | **3. No usar el valor devuelto**                                 | `sumar(2, 3);` sin `System.out.println()` ni asignarlo                | Se calcula la suma pero no se muestra ni se guarda.                                      | Siempre usar el valor: `int r = sumar(2, 3);`                                               |
-| **4. Pensar que las variables de dentro y fuera son las mismas** | `int a = 5; cambiar(a);` pero dentro `a = 10;` y fuera sigue siendo 5 | El paso es **por valor**: se copia el dato.                                              | Hacer una traza: ver cómo `a` de dentro es otra variable independiente.                     |
-| **5. No saber cuándo termina la función**                        | Añadir código después de `return`                                     | El programa no lo ejecuta nunca.                                                         | Explicar que `return` finaliza la función.                                                  |
+| **4. Pensar que las variables de dentro y fuera son las mismas** | `int a = 5; cambiar(a);` pero dentro `a = 10;` y fuera sigue siendo 5 | El paso es **por valor**: se copia el dato. | Sigue el valor de ambas variables para ver que son independientes. |
+| **5. No saber cuándo termina la función**                        | Añadir código después de `return`                                     | El programa no lo ejecuta nunca. | `return` finaliza la ejecución del método. |
 
 ---
 
@@ -185,13 +185,13 @@ Antes de seguir, responde tú mismo:
 
 ## ✅ 8️⃣ Actividad propuesta
 
-Entre todos creamos una tabla con varios diseños de funciones: 
+Diseña una tabla con varios métodos sencillos:
 
 TIPO RETORNO | NOMBRE | PARÁMETROS
 
-Escribimos los cinco programas
+Escribe y prueba un método de cada tipo.
 
-### Pizarra explicación
+### Esquema de apoyo
 
 ![alt text](pi.jpg)
 

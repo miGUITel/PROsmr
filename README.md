@@ -1,36 +1,28 @@
-# SMR 2: INTRODUCCIÓN A LA PROGRAMACIÓN
-Material para el módulo optativo de programación de 2º SMR
+# Fundamentos de la programación (IC02) · 2.º de SMR
 
-![alt text](image.png) ![alt text](image-1.png)
+Materiales del curso 2026-2027. El profesor publica aquí apuntes, ejemplos y plantillas. El alumnado consulta y actualiza el repositorio; trabaja sobre copias personales y entrega por el Aula Virtual.
 
-## Guía del curso
+![Imagen del módulo](image.png) ![Imagen del centro](image-1.png)
 
-1. [TAREAS Programación Semanal](*tareas_semanales.md)
-2. [Criterios de evaluación](criteriosEvaluacion.md)
-3. [Metodología](*metodologia.md)
-4. [Criterios de Calificación](*calificacion.md)
+## Empezar
 
+1. Lee el [flujo de trabajo y la organización de materiales](SESIONES_2026_27.md).
+2. Consulta la [metodología](metodologia.md), la [calificación](calificacion.md) y los [resultados de aprendizaje y criterios de evaluación](criteriosEvaluacion.md).
+3. Para la primera sesión, abre los [apuntes](apuntes%20y%20ejemplos/S01_Apuntes.md), el [ejemplo Java](apuntes%20y%20ejemplos/S01_HolaSMR.java) y la [actividad](tareas/S01_Actividad.md).
 
-## Appuntes
+El recorrido previsto comprende 18 sesiones de 110 minutos entre septiembre y febrero: presentación, teoría con tests, práctica progresiva de programación y dos prácticas guiadas breves sobre ficheros y bases de datos. El profesor publicará cada material cuando corresponda; el ritmo puede ajustarse al grupo.
 
-1. [Uso de VSC como IDE para java](./guias/vsc/vsc.md)
-2. [Variables, Operaciones, Entrada/Salida y Conversiones](./guias/guia.md)
-3. [Funciones](./guias/funciones/guiaFunc.md)
-4. [Condicionales](./guias/condicional/condicional.md)
-5. [Condicionales 2](./guias/condicional/condicioinalV2.md)
-6. [Bucles con while](./guias/bucles/1while.md)
+## Herramientas
 
-## Ampliación
-1. 1 [Errores comunes](./guias/vsc/vsc.md/#errores-comunes)
-2. 1 [Limpiar el buffer en funciones de Entrada: Scanner](./guias/amplia/limpiaBuffer.md)
-3. 1 [¿Qué es args en main?](./guias/amplia/args-main.md)
+Usaremos principalmente Java y Visual Studio Code. GitHub distribuye los materiales; las entregas se realizan en el Aula Virtual. Scratch y Blockly Games quedan como recursos de ampliación para quien avance más rápido.
 
+## Guías de consulta
 
+Las siguientes guías son material complementario. Su orden no representa la secuencia ni las tareas evaluables de este curso.
 
-## Recursos
-
-* [Blockly Games](https://blockly.games/) → para iniciación a la lógica de programación sin sintaxis.
-* [Scratch](https://scratch.mit.edu/) → para representar estructuras y lógica con bloques visuales.
-* [JDoodle (Java)](https://www.jdoodle.com/online-java-compiler) → para escribir programas sencillos en Java sin necesidad de un IDE.
-* [CodingBat (Java)](https://codingbat.com/java) → para reforzar y ampliar con ejercicios de lógica en Java.
-* [IntelliJ IDEA](https://www.jetbrains.com/idea/) → para proyectos locales más completos y organización del código.
+- [Java en VSCode](guias/vsc/vsc.md)
+- [Variables, operaciones, entrada/salida y conversiones](guias/guia.md)
+- [Funciones](guias/funciones/guiaFunc.md)
+- [Condicionales](guias/condicional/condicional.md) y [más condicionales](guias/condicional/condicioinalV2.md)
+- [Bucles con `while`](guias/bucles/1while.md)
+- [Dudas sobre `Scanner`](guias/amplia/limpiaBuffer.md) y [argumentos de `main`](guias/amplia/args-main.md)

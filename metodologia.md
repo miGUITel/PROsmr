@@ -1,26 +1,19 @@
-# 📘 Metodología
+# Metodología del curso 2026-2027
 
-La asignatura se trabajará combinando diferentes **herramientas digitales** que permiten aprender programación de forma progresiva:
+Aprenderemos a programar con pasos pequeños: leer un ejemplo, ejecutarlo, cambiar una parte y comprobar el resultado. Al principio trabajaremos con ayuda; después las prácticas pedirán cada vez más decisiones propias. También aprenderemos a interpretar los mensajes de error y a probar si el resultado es correcto.
 
-* **[Blockly Games](https://blockly.games/?lang=es)** y **[Scratch](https://scratch.mit.edu/mystuff/)** para iniciarse en la lógica de la programación sin necesidad de aprender sintaxis.
-* **JDoodle** para escribir programas sencillos en Java sin necesidad de instalar nada.
-* **CodingBat** como refuerzo con ejercicios prácticos en Java.
-* **IntelliJ IDEA** para el trabajo final con proyectos más completos que incluyan ficheros y bases de datos.
+Cada sesión tiene dos periodos lectivos de 55 minutos. No todas siguen el mismo reparto de tiempo ni terminan con una entrega.
 
-## Organización de cada sesión (2 horas)
+## Cómo serán las sesiones
 
-Cada semana se trabajará una tarea concreta. La dinámica habitual será:
+- **Teoría de la programación:** presentaciones, apuntes, ejemplos breves y preguntas. La primera sesión teórica no tendrá test. Las siguientes comenzarán con un test sobre la sesión teórica anterior.
+- **Práctica de programación:** comenzaremos con ejemplos y modificaciones guiadas. Después resolveremos problemas sencillos con más autonomía, en tiempo limitado, probando y depurando el código. La primera sesión práctica comenzará con el test de la última sesión teórica.
+- **Ficheros y bases de datos:** realizaremos una práctica guiada y de alcance breve para cada tema. Los contenidos que exceden la programación básica se tratarán a nivel teórico.
 
-* **25 minutos** → Introducción teórico-práctica por parte del profesor, mostrando ejemplos con las herramientas seleccionadas.
-* **60 minutos** → Trabajo individual del alumnado en la tarea propuesta, aplicando lo aprendido.
-* **25 minutos** → Elaboración de la memoria de la tarea y entrega en el Aula Virtual.
+Durante las actividades y prácticas trabajaremos sin conexión a Internet para evitar la ayuda de herramientas de IA. Si necesitas apoyo, consulta los materiales locales y pregunta al profesor. Quien avance más rápido podrá ampliar con Scratch o Blockly Games cuando se indique.
 
-## Entrega de tareas
+## Materiales y entregas
 
-* La **memoria** se entregará siempre en **formato PDF** a través del Aula Virtual.
-* La memoria debe incluir **capturas de pantalla** que muestren el trabajo realizado y, cuando sea necesario, el **código fuente** utilizado.
-* La **entrega se realizará al final de cada sesión**.
+Usaremos principalmente Java, VSCode, presentaciones y apuntes Markdown. El profesor publica los materiales en GitHub. El alumnado actualiza el repositorio, copia las plantillas a una carpeta personal fuera de él y entrega las prácticas que se indiquen mediante el Aula Virtual. El formato y el plazo de cada entrega se especificarán en su enunciado o en el Aula Virtual.
 
-## Recuperación
-
-* En caso de **no entregar** la tarea o **no superarla**, el alumno podrá recuperarla realizando de nuevo la misma tarea y entregándola correctamente.
+Consulta el [flujo de trabajo](SESIONES_2026_27.md) antes de modificar una plantilla y la [calificación](calificacion.md) para saber qué evidencias cuentan en cada bloque.
