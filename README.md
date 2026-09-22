@@ -11,7 +11,7 @@ Materiales del curso 2026-2027. El profesor publica aquí apuntes, ejemplos y pl
    1. [metodología](metodologia.md)
    2. [calificación](calificacion.md)
    3. [resultados de aprendizaje y criterios de evaluación](criteriosEvaluacion.md).
-3. Para la primera sesión, abre los [apuntes](apuntes%20y%20ejemplos/S01_Apuntes.md), el [ejemplo Java](apuntes%20y%20ejemplos/S01_HolaSMR.java) y la [actividad](tareas/S01_Actividad.md).
+3. Para la primera sesión, abre los [apuntes](apuntes_y_ejemplos/S01_Apuntes.md), el [ejemplo Java](apuntes_y_ejemplos/S01_HolaSMR.java) y la [actividad](tareas/S01_Actividad.md).
 
 El recorrido previsto comprende 18 sesiones de 110 minutos entre septiembre y febrero: presentación, teoría con tests, práctica progresiva de programación y dos prácticas guiadas breves sobre ficheros y bases de datos. El profesor publicará cada material cuando corresponda; el ritmo puede ajustarse al grupo.
 

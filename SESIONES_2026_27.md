@@ -14,6 +14,6 @@ Editar archivos dentro del repositorio puede impedir la siguiente actualización
 
 ## Organización
 
-Los archivos de una misma sesión llevan el prefijo `S01_`, `S02_`, etc. Se guardan directamente en `apuntes y ejemplos/` o `tareas/`, sin subcarpetas por sesión. Los nuevos recursos aparecerán cuando se publiquen.
+Los archivos de una misma sesión llevan el prefijo `S01_`, `S02_`, etc. Se guardan directamente en `apuntes_y_ejemplos/` o `tareas/`, sin subcarpetas por sesión. Los nuevos recursos aparecerán cuando se publiquen.
 
 El curso comienza con una presentación y continúa con teoría, práctica de programación y un cierre guiado sobre ficheros y bases de datos. La [metodología](metodologia.md) explica cómo trabajaremos en cada bloque.
