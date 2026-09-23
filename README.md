@@ -1,4 +1,4 @@
-# Fundamentos de la programación (IC02) · 2.º de SMR
+# Fundamentos de la programación · 2.º de SMR
 
 Materiales del curso 2026-2027. El profesor publica aquí apuntes, ejemplos y plantillas. El alumnado consulta y actualiza el repositorio; trabaja sobre copias personales y entrega por el Aula Virtual.
 
