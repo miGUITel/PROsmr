@@ -10,7 +10,8 @@ public class S04_Almacenamiento {
 
     public static double calcularLibre(double total, double usado) {
         // Limitamos la salida a cero; esto no valida los datos recibidos.
-        return Math.max(0, total - usado);
+        double resultado = total - usado;
+        return Math.max(0      ,     resultado);
     }
 
     public static void main(String[] args) {
