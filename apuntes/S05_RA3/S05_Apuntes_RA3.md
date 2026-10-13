@@ -36,8 +36,24 @@ En una cadena se ejecuta solo el primer bloque cuya condición sea verdadera. Po
 `==` compara valores numéricos y `=` asigna un valor. Para combinar condiciones utilizamos `&&` (ambas verdaderas), `||` (al menos una verdadera) y `!` (negación).
 
 ```java
-boolean admiteInstalacion = memoriaRam >= 8 && espacioLibre >= 20;
+int ram = 16;
+int espacioLibre = 20;
+if (ram >= 8 && espacioLibre >= 20) {
+    System.out.println("Puede instalarse");
+} else {
+    System.out.println("No cumple los requisitos");
+}
 ```
+
+`&&` exige que se cumplan los dos requisitos. Tener RAM suficiente no compensa la falta de espacio, ni al revés. En este ejemplo, las cantidades se expresan en GB.
+
+| RAM | Espacio libre | `ram >= 8` | `espacioLibre >= 20` | Mensaje |
+|---:|---:|:---:|:---:|---|
+| 16 | 20 | Verdadero | Verdadero | Puede instalarse |
+| 4 | 20 | Falso | Verdadero | No cumple los requisitos |
+| 16 | 10 | Verdadero | Falso | No cumple los requisitos |
+
+El método `mostrarInstalacion` de [S05_Seleccion.java](../../ejemplos/S05_RA3/S05_Seleccion.java) reúne estos tres casos. Predice el mensaje de cada llamada antes de ejecutar.
 
 Para comparar el contenido de textos usamos `equals`, por ejemplo `"admin".equals(usuario)`. `==` no comprueba el contenido de dos objetos `String`.
 
