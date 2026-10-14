@@ -1,0 +1,5 @@
+bin/
+*.class
+equipos.db-journal
+equipos.db-wal
+equipos.db-shm

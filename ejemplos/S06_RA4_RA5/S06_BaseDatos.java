@@ -5,10 +5,13 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-// Ejemplo de lectura guiada de JDBC. Java incluye la API, pero no el controlador SQLite.
-// Para ejecutarlo se necesita el controlador SQLite JDBC en el classpath.
-// La base es temporal (:memory:), por lo que estas operaciones no alteran archivos.
-// En esta sesión basta seguir el código y las consultas de los apuntes.
+// Primera demostración: JDBC con una base temporal en memoria.
+// Java incluye la API JDBC; los tres JAR de lib/ aportan el controlador y sus dependencias.
+// Hay una copia idéntica de este archivo en S06_BBDD para ejecutar todo desde esa carpeta.
+// Copiar S06_BBDD completa fuera del repositorio y abrir una terminal en la copia.
+// Ejecutar: java -cp 'lib/*' S06_BaseDatos.java
+// :memory: crea una base nueva por conexión; al cerrar, sus datos desaparecen.
+// Esta ejecución no crea un archivo .db ni utiliza el equipos.db de la segunda demostración.
 public class S06_BaseDatos {
     public static void main(String[] args) {
         try (Connection conexion = DriverManager.getConnection("jdbc:sqlite::memory:")) {

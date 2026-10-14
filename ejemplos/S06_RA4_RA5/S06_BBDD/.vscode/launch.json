@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "S06 · Base en memoria",
+            "request": "launch",
+            "mainClass": "S06_BaseDatos",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "S06 · Añadir equipos",
+            "request": "launch",
+            "mainClass": "S06_AnadirEquipos",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "S06 · Leer equipos",
+            "request": "launch",
+            "mainClass": "S06_LeerEquipos",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        }
+    ]
+}
