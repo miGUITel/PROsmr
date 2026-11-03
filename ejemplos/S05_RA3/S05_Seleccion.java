@@ -22,7 +22,6 @@ public class S05_Seleccion {
         mostrarEstado(84);
         mostrarEstado(100);
 
-        // Predice cada mensaje: ambos requisitos, poca RAM y poco espacio.
         mostrarInstalacion(16, 20);
         mostrarInstalacion(4, 20);
         mostrarInstalacion(16, 10);
